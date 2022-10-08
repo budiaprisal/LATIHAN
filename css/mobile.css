@@ -1,0 +1,161 @@
+@media (max-width: 992px) {   
+    
+    body {
+        /* background-color: skyblue; */
+        margin-bottom: 500px;
+    }
+    
+    /* header */
+    .header .navbar {
+        background-color : black;
+    }
+    
+    /* slider */
+    .slider {
+        padding-top: 200px;
+        background-image: linear-gradient(rgba(16, 15, 15, 0.71), rgba(16, 15, 15, 0.71)), url(../Assets/img/landing-page.jpg) ;
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .slider .carousel-item {
+        color: white; 
+    }
+    
+    .slider .carousel-inner h1 {
+        font-family: 'ubuntu';
+        font-weight: bold;
+        font-size: 40px;
+    }
+    
+    .slider .carousel-item h6 {
+        font-family: 'noto sans';
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    .visual1 {
+        padding-top: 280px;
+    }
+    
+    /* ongkir dan lacak */
+    .ongkir-lacak {
+        margin-top: -250px;
+        z-index: 1;
+        position: relative;
+    }
+    
+    .ongkir, .lacak {
+        margin: 20px ;
+        padding-top: 20px;
+    }
+    
+    .bg-ongkir-lacak{
+        width: 100%;
+        height: auto;
+        background-color: #F7B20D;
+        border-radius: 20px;
+        color: white;
+    }
+    
+    .ongkir .btn {
+        width: 207px;
+        height: 46.85px;
+        margin: 1px;
+        border-radius: 20px;
+    
+    }
+    
+    .lacak .form-control {
+        margin-top: 20px;
+    }
+    
+    .ongkir h1, .lacak h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .ongkir h6, .lacak h6 {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    /* our service */
+    .our-service {
+        margin-top: 100px;
+    }
+    
+    .our-service h1 {
+        font-size: 30px;
+    }
+    
+    .reguler img, .yes img, .cod img  {
+        width: 50px;
+        height: auto;
+    }
+    
+    .reguler h1, .yes h1, .cod h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .reguler h6, .yes h6, .cod h6 {
+        font-size: 12px;
+    }
+    
+    .reguler .btn, .yes .btn, 
+    .reguler .btn , .cod .btn {
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    
+    .reguler, .yes, .cod {
+        margin-top: 30px;
+        padding: 10px;
+        width: auto;
+        height: auto;
+        background-color: white;
+        box-shadow:  0px 4px 25px rgba(54, 52, 52, 0.387);;
+        border-radius: 20px;
+        margin-left: 20px;
+    }
+    
+    .berita-terkini {
+        margin: 100px;
+
+    }
+    
+    
+    
+    
+    
+    .img-kurir-sepeda{
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    
+    .review.konten {
+        margin-top: 100px;
+        padding: 40px;
+    }
+    
+    .tab-pane{
+    
+        overflow: scroll;
+    
+    
+    }
+    
+    
+    .review-konten .gambar{
+     height: 80px;
+     width :80px;
+     border-radius: 50%;
+    }
+
+
+
+}
